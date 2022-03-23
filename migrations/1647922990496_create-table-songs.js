@@ -14,7 +14,7 @@ exports.up = (pgm) => {
       notNull: true,
     },
     year: {
-      type: 'INT[]',
+      type: 'INT',
       notNull: true,
     },
     performer: {
@@ -26,7 +26,7 @@ exports.up = (pgm) => {
       notNull: true,
     },
     duration: {
-      type: 'INT[]',
+      type: 'INT',
       notNull: true,
     },
     albumId: {

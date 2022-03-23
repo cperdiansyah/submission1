@@ -48,7 +48,7 @@ class AlbumsHandler {
       });
       response.code(500);
       console.error(error);
-      return response;
+      return response;  
     }
   }
   async getAlbumByIdHandler(request, h) {

@@ -14,7 +14,7 @@ exports.up = (pgm) => {
       notNull: true,
     },
     year: {
-      type: 'INT[]',
+      type: 'INT',
       notNull: true,
     },
     created_at: {
